@@ -1,0 +1,24 @@
+header {
+  background-color: rgb(18, 157, 204);
+  padding: 10px;
+  font-weight: 800;
+  font-size: 24px;
+  color: white;
+  margin-bottom: 75px;
+
+  .brand {
+    height: 4em;
+    width: 4em;
+    border-radius: 100%;
+    position: absolute;
+    left: 45%;
+    top: 0;
+    background-color: rgb(18, 157, 204);
+
+    img {
+      height: 4em;
+      width: 4em;
+      filter: brightness(0) invert(1);
+    }
+  }
+}

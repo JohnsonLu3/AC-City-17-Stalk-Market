@@ -1,0 +1,19 @@
+.calendar {
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+
+    li {
+      height: 50px;
+      width: 50px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      border-radius: 100%;
+      background-color: white;
+      margin: 2px;
+    }
+  }
+}
